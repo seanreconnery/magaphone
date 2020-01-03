@@ -1,0 +1,3 @@
+title=Mobile MAGAphone
+author=@_Luke_Slytalker
+orientation=auto
