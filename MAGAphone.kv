@@ -1,0 +1,131 @@
+<MyGrid>
+    GridLayout:
+        cols:1
+        background_color:1,1,1,1
+        size: root.width, root.height
+        padding: 20
+
+        GridLayout:
+            cols:2
+            padding: 40
+
+            Ta:
+                source:'assets/trump1.png'
+                size_hint: .2, .2
+                background_color: 0,0,0,0  # the last zero is the critical on, make invisible
+                canvas.before:
+                    Color:
+                        rgba: (1,1,1,1) if self.state=='normal' else (0,0,0,1)  # visual feedback of press
+                    RoundedRectangle:
+                        pos: self.pos
+                        size: self.size
+                        radius: [66,]
+
+            Tb:
+                source:'assets/trump2.png'
+                size_hint: .2, .2
+                background_color: 0,0,0,0  # the last zero is the critical on, make invisible
+                canvas.before:
+                    Color:
+                        rgba: (1,1,1,1) if self.state=='normal' else (0,0,0,1)  # visual feedback of press
+                    RoundedRectangle:
+                        pos: self.pos
+                        size: self.size
+                        radius: [66,]
+
+            Tc:
+                source:'assets/trump3.png'
+                size_hint: .2, .2
+                background_color: 0,0,0,0  # the last zero is the critical on, make invisible
+                canvas.before:
+                    Color:
+                        rgba: (1,1,1,1) if self.state=='normal' else (0,0,0,1)  # visual feedback of press
+                    RoundedRectangle:
+                        pos: self.pos
+                        size: self.size
+                        radius: [66,]
+
+            Td:
+                source:'assets/trump4.png'
+                size_hint: .2, .2
+                background_color: 0,0,0,0  # the last zero is the critical on, make invisible
+                canvas.before:
+                    Color:
+                        rgba: (1,1,1,1) if self.state=='normal' else (0,0,0,1)  # visual feedback of press
+                    RoundedRectangle:
+                        pos: self.pos
+                        size: self.size
+                        radius: [66,]
+
+            Te:
+                source:'assets/trump5.png'
+                size_hint: .2, .2
+                background_color: 0,0,0,0  # the last zero is the critical on, make invisible
+                canvas.before:
+                    Color:
+                        rgba: (1,1,1,1) if self.state=='normal' else (0,0,0,1)  # visual feedback of press
+                    RoundedRectangle:
+                        pos: self.pos
+                        size: self.size
+                        radius: [66,]
+
+            Tf:
+                source:'assets/trump6.png'
+                size_hint: .2, .2
+                background_color: 0,0,0,0  # the last zero is the critical on, make invisible
+                canvas.before:
+                    Color:
+                        rgba: (1,1,1,1) if self.state=='normal' else (0,0,0,1)  # visual feedback of press
+                    RoundedRectangle:
+                        pos: self.pos
+                        size: self.size
+                        radius: [66,]
+
+            Tg:
+                source:'assets/trump7.png'
+                size_hint: .2, .2
+                background_color: 0,0,0,0  # the last zero is the critical on, make invisible
+                canvas.before:
+                    Color:
+                        rgba: (1,1,1,1) if self.state=='normal' else (0,0,0,1)  # visual feedback of press
+                    RoundedRectangle:
+                        pos: self.pos
+                        size: self.size
+                        radius: [66,]
+
+            Th:
+                source:'assets/trump8.png'
+                size_hint: .2, .2
+                background_color: 0,0,0,0  # the last zero is the critical on, make invisible
+                canvas.before:
+                    Color:
+                        rgba: (1,1,1,1) if self.state=='normal' else (0,0,0,1)  # visual feedback of press
+                    RoundedRectangle:
+                        pos: self.pos
+                        size: self.size
+                        radius: [66,]
+
+            Ti:
+                source:'assets/trump9.png'
+                size_hint: .2, .2
+                background_color: 0,0,0,0  # the last zero is the critical on, make invisible
+                canvas.before:
+                    Color:
+                        rgba: (1,1,1,1) if self.state=='normal' else (0,0,0,1)  # visual feedback of press
+                    RoundedRectangle:
+                        pos: self.pos
+                        size: self.size
+                        radius: [66,]
+
+            Tj:
+                source:'assets/trump10.png'
+                size_hint: .2, .2
+                background_color: 0,0,0,0  # the last zero is the critical on, make invisible
+                canvas.before:
+                    Color:
+                        rgba: (1,1,1,1) if self.state=='normal' else (0,0,0,1)  # visual feedback of press
+                    RoundedRectangle:
+                        pos: self.pos
+                        size: self.size
+                        radius: [66,]
+
